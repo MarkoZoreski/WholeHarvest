@@ -1,0 +1,500 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 120rem;
+    margin: auto;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 34rem;
+    width: 120rem;
+    background-image: url(images/girl_drinking.png);
+    background-repeat: no-repeat;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 1170px;
+    left: 375px;
+    height: 380px;
+    top: 85px;
+}
+
+.hero_text1 {
+    position: relative;
+    width: 653px;
+    height: 222px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 74px;
+
+    text-transform: capitalize;
+
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+#greenText {
+    color: #549663
+}
+
+#redText {
+    color: #D43B4A;
+}
+
+.hero_text2 {
+    position: relative;
+    width: 582px;
+    height: 138px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+
+    color: #363636;
+
+    flex: auto;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hero_img {
+    background: linear-gradient(92.25deg, #F1F0F5 46.64%, rgba(241, 240, 245, 0) 63.63%), #F1F0F5;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+.div01 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+}
+
+.btn-warning {
+    background-color: #FFD800;
+    border-radius: 12px;
+    width: 80%;
+    min-height: 3rem;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plans>.card {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin: 1em;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.card:has(#right){
+    background-color: #E6ECE0;
+}
+
+#left,
+#right {
+    margin: 0;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px 12px 0 0;
+}
+
+#left{
+    background-color: #F0D8A8;
+}
+
+#right{
+    background-color: #549663;
+}
+
+#right
+
+.img {
+    width: fit-content;
+}
+
+.div02 {
+    background-color: #549663;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+    height: 9rem;
+}
+
+.div03Cards {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div03 {
+    background-color: #F1F0F5;
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.col {
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.buy-now {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.circle {
+    height: 5rem;
+    width: 5rem;
+    background-color: #F1F0F5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    left: 47.5%;
+}
+
+.money-back {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+}
+
+.review {
+    background-color: white;
+    padding: .5rem;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    text-align: left;
+    border-radius: 12px;
+    font-style: italic;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color: yellow;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 2em;
+}
+
+.initials {
+    display: inline-block;
+}
+
+.div04 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: #F7F7F7;
+    /* img */
+
+    /* box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2); */
+    border-radius: 15px;
+
+}
+
+.ingredient {
+    padding: 1rem;
+    border-radius: 12px;
+    width: 99%;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    font-weight: 400;
+    block-size: fit-content;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.ingredient>img {
+    height: 15em;
+    border-radius: 15px;
+    margin-left: 2rem;
+}
+
+.text-secondary {
+    background-color: #F1F0F5;
+}
+
+.ad {
+    text-align: left;
+}
+
+.div05 {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: #549663;
+    height: 40rem;
+    border-radius: 12px;
+    font-weight: 800;
+    overflow: hidden;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.plan {
+    position: relative;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.watermark_div {
+    position: relative;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.watermark {
+    position: absolute;
+    left: 36px;
+    top: -222px;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    opacity: 0.2;
+    transform: rotate(90deg);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.productCard {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    font-weight: 400;
+    margin: 0;
+}
+
+.div06 {
+    margin-top: 2rem;
+    background-color: #F1F0F5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tickdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.div07 {
+    background-color: #F0D8A8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+}
+
+.panel-default>.panel-heading {
+    background-color: #000;
+}
+
+.div08 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F0F5;
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+#btn1,
+#btn2 :hover {
+    cursor: pointer;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col {
+    width: 100%;
+}
+
+/* accordion css */
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    position: absolute;
+    left: 55rem !important;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #aaaaaa;
+    background: #549663 50% 50% repeat-x;
+    font-weight: normal;
+    color: white;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0px 0px;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    min-height: 0px;
+    font-size: 100%;
+    background: #549663 50% 50% repeat-x;
+    color: white;
+}

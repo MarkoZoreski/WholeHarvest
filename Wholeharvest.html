@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[WholeHarvest] Lean&Green</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+            $("#btn1").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#plans2").offset().top
+                }, 2000);
+            });
+            $("#btn2").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#plans3").offset().top
+                }, 2000);
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @media only screen and (max-width: 768px) {
+
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+            div{
+                display: flex;
+                flex-direction: column !important;
+                flex-wrap: nowrap;
+            }
+            image{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="hero col">
+            <div class="hero_text">
+                <div class="hero_text1">
+                    <p>Reawaken Your<br>
+                        Body’s Natural Energy
+                        with <span id="greenText">Lean&Green</span>
+                    </p>
+                </div>
+                <div class="hero_text2">
+                    <p>A <b> one-of-a-kind</b> patent-pending
+                        formula with clinically validated
+                        ingredients and proven results!</p>
+                </div>
+            </div>
+        </div>
+        <div class="div01">
+            <div class="text1 col">
+                <h1 style="text-transform: capitalize;">
+                    The revolutionary way to <span id="greenText">enriched energy</span> ,<br>
+                    <span id="greenText">razor sharp focus</span>, and <span id="greenText">mental clarity.</span>
+                </h1>
+            </div>
+            <div class="text2 col">
+                <p>
+                   <b> Tear through your schedule with ease: No jitters, crashes or upset stomach.</b>
+                </p>
+            </div>
+            <div class="plans col" id="plans1">
+                <div class="card col-6">
+                    <h1 id="left">ONE TIME PURCHASE</h1>
+                    <h2>3 Pouches</h2>
+                    <div class="plan">
+                        <img class="badge" src="images/ProductBadge.png" alt="badge" style="width: 3rem;">
+                        <img src="images/Product1.png" alt="Product1" style="width:80%; height: auto;">
+                    </div>
+                    <h2 style="font-weight: 400;">save 37.50%</h2>
+                    <h1 id="greenText">$149.95</h1>
+                    <button class="btn btn-warning"><b>BUY NOW</b><br>5% Ground shipping</button>
+                    <p>Regular Price: <span style="text-decoration: line-through;">$239.85</span></p>
+                    <div>
+                        <img src="images/norton-antivirus-logo.png" alt="norton-antivirus-logo">
+                        <img src="images/secure-payments.png" alt="secure-payments">
+                    </div>
+                    <img src="images/security-icons.png" alt="security-icons">
+                </div>
+                <div class="card col-6">
+                    <h1 id="right">SUBSCRIBE & SAVE</h1>
+                    <h2>Buy 4 <span id="redText">Get 1 FREE</span></h2>
+                    <div class="plan">
+                        <img class="badge" src="images/ProductBadge.png" alt="badge" style="width: 3rem;">
+                        <img src="images/Product2.png" alt="Product2" style="width:80%; height: auto;">
+                    </div>
+                    <h2 style="font-weight: 400;">save 50%</h2>
+                    <h1 id="greenText">$199.95</h1>
+                    <button class="btn btn-warning"><b>BUY NOW</b><br>5% Ground shipping</button>
+                    <p>Regular Price: <span style="text-decoration: line-through;">$399.75</span></p>
+                    <div>
+                        <img src="images/norton-antivirus-logo.png" alt="norton-antivirus-logo">
+                        <img src="images/secure-payments.png" alt="secure-payments">
+                    </div>
+                    <img src="images/security-icons.png" alt="security-icons">
+                </div>
+            </div>
+            <div class="money-back col">
+                <img src="images/ProductBadge.png" alt="badge">
+                <span>90-Day Money Back Guarantee | All transactions secured and encrypted
+                    Cancel your subscription at any time</span>
+            </div>
+        </div>
+        <div class="div02 col">
+            <h1 class="col">Experience <br>
+                POWERFUL RESULTS</h1>
+            <div>
+                <span class="circle">
+                    <h1 class="arrow" id="greenText">&#8595;</h1>
+                </span>
+            </div>
+        </div>
+        <div class="div03 col">
+            <div class="div03Cards">
+                <div class="card col-6">
+                    <div>
+                        <img src="images/card1.png" alt="card1" style="width:100%">
+                    </div>
+                    <h1 id="greenText" style="display: flex; justify-content: center;">ALL-DAY ENERGY</h1>
+                    <p>Feel a calm yet dominant energy surge throughout your body. <b>Green&Lean</b> is not just a quick
+                        rise and
+                        fall. The ingredients inside this blend assist you in experiencing energy throughout your entire
+                        day.
+                    </p>
+                    <p id="redText">Feel younger and more invincible</p>
+                </div>
+                <div class="card col-6">
+                    <div>
+                        <img src="images/card2.png" alt="card2" style="width:100%">
+                    </div>
+                    <h1 id="greenText" style="display: flex; justify-content: center;">SHARPER FOCUS</h1>
+                    <p><b>Green&Lean</b> can boost attention, concentration, and mental clarity. It has an incredible
+                        power
+                        to give
+                        your brain a fresh, alert, and razor-sharp sense of focus all day long.
+                    </p>
+                    <p id="redText">Tackle the to-do's you've been putting off or haven't wanted to do with new
+                        determination.</p>
+                </div>
+                <div class="card col-6">
+                    <div>
+                        <img src="images/card3.png" alt="card3" style="width:100%">
+                    </div>
+                    <h1 id="greenText" style="display: flex; justify-content: center;">MAINTAIN CALMNESS</h1>
+                    <p><b>Green&Lean</b> contains compounds that help amplify alpha brain waves. Feel locked-in on the
+                        task in
+                        front of you with inner stillness.
+
+                        Alpha brain waves keep your mind energized yet calm, focused and creative, while heightening
+                        memory
+                        retention. You get a sustainable, long-lasting surge in natural energy that keeps you engaged,
+                        centered, and in the zone.
+                    </p>
+                    <p id="redText">You're only a sip away from getting into the zone you've been waiting for.</p>
+                </div>
+                <div class="card col-6">
+                    <div>
+                        <img src="images/card4.png" alt="card4" style="width:100%">
+                    </div>
+                    <h1 id="greenText" style="display: flex; justify-content: center;">IMPROVED MEMORY</h1>
+                    <p>The ingredients inside <b>Green&Lean</b> increase Brain Derived Neurotrophic Factors (BDNF). This
+                        nourishes
+                        your brain’s neurons, maximizes memory, and accelerates thinking.
+
+                        It can encourage the production of neurons in the brain, and protects from embarrassing “mental
+                        hiccups” and forgettfullness.
+                    </p>
+                    <p id="redText">Feel whip-smart on a more consistent basis.</p>
+                </div>
+                <div class="buy-now col">
+                    <button class="btn btn-warning" id="btn1"><h1><b>BUY NOW</b></h1></button>
+                    <div class="money-back col">
+                        <img src="images/ProductBadge.png" alt="badge">
+                        <span>90-Day Money Back Guarantee | All transactions secured and encrypted</span>
+                    </div>
+                </div>
+                <div class="reviews col">
+                    <div class="review col-6">
+                        <p>"I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is
+                            exactly what my body has been lacking."</p>
+                        <span class="initials col-6">
+                            <h1 id="greenText">S.J</h1>
+                        </span>
+                        <span class="rating col-6">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                    <div class="review col-6">
+                        <p>""We're loving it. This is simply unbelievable! I like it more and more each day because it
+                            makes my life a lot easier.""</p>
+                        <span class="initials col-6">
+                            <h1 id="greenText">E.J</h1>
+                        </span>
+                        <span class="rating col-6">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div04 col">
+            <h1 id="greenText">12 Potent Super-Nutrient Ingredients</h1>
+            <h2><b>Selected to synergistically compound benefits and give you elite energy,
+                    focus, cognitive retention, and stress relief.</b>
+            </h2>
+            <div class="ingredient-list col-6">
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">KSM-66® Ashwagandha</h1>
+                        <p>A trademarked, pure version of the herb Ashwagandha. Backed by 22 “gold standard” human
+                            clinical trials, and a proprietary extraction process with over 14 years of research [16].
+                            <br>
+                            <br>
+                            A February 2020 study from The Journal of Nutrients showed it can help supercharge your
+                            mitochondria’s ability to [17]:
+                        </p>
+                        <ul>
+                            <li><b>Produce clean, new energy.</b></li>
+                            <li><b>to reduce stress and anxiety.</b></li>
+                            <li><b>Helps to improve learning, concentration and memory.</b></li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient1.png" alt="ingredient1">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Neurofactor®</h1>
+                        <p>An all-natural, patented extract of the whole coffee arabica fruit. Inside the skin of this
+                            fruit is a rare nutrient that boosts levels of brain derived neurotrophic factor (BDNF). [5]
+                            BDNF nourishes your brain’s existing neurons, which leads to:
+                        </p>
+                        <ul>
+                            <li><b>Maximizes memory</b> - and gives you lightning-quick thinking.</li>
+                            <li><b>Encourages growth of neurons in the brain</b> - at any age. </li>
+                            <li><b>Increase BDNF</b> levels by 143% naturally</li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient2.png" alt="ingredient2">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Synapsa®</h1>
+                        <p>Synapsa® is a patented, standardized extract of a plant called Bacopa Monnieri. For thousands
+                            of years, Eastern healers called it The Herb of Grace for its astounding ability to “sharpen
+                            the intellect” at any age. <br>
+                            <br>
+                            Bacopa Monnieri acts as a shield to protect mitochondria from stress [6].
+                        </p>
+                        <ul>
+                            <li><b>Energy levels remaining at their peak</b>- and stress levels remain low.</li>
+                            <li><b>to reduce stress and anxiety.</b></li>
+                            <li><b>Improved memory and information retention.</b></li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient3.png" alt="ingredient3">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">CoffeeBerry®</h1>
+                        <p>CoffeeBerry® has less caffeine than a standard cup of coffee, yet provides the energy of
+                            several without the drawbacks. Its outer shell is packed with a unique blend of polyphenols.
+                            <br>
+                            <br>
+                            Polyphenols scavenge your mitochondria for harmful agents that
+                            drain its ability to turn the oxygen you breathe, into natural energy you can use [7].
+                            Polyphenols help ensure caffeine doesn’t take you for a rollercoaster of a ride. With coffee
+                            fruit you get…
+                        </p>
+                        <ul>
+                            <li><b>A long-lasting clean energy </b>- without the crash.</li>
+                            <li><b>A gentle rise </b>- that leaves you focused yet Zen-like.</li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient4.png" alt="ingredient4">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">ZumXR®</h1>
+                        <p>ZumXR® is a patented, extended-release caffeine technology [8].
+                            <br>
+                            <br>
+                            It’s dripped out and slowly released so you don’t get a shock to the system, but instead:
+                        </p>
+                        <ul>
+                            <li><b>A gradual increase in energy </b>- that actually lasts for more than 6 hours! </li>
+                            <li><b>No-Spike, No Crash, and No Jitters.</b></li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient5.png" alt="ingredient5">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Suntheanine®</h1>
+                        <p>L-theanine is a naturally-occurring amino acid found in the leaves
+                            of green tea grown in New Zealand. SuntheanineTM is its most
+                            powerful form.
+
+                            <br>
+                            <br>Suntheanine® is proven to be safe, effective, and is kept under the strictest of quality
+                            control [9]. The compounds inside
+                            Suntheanine® help:
+                        </p>
+                        <ul>
+                            <li><b>Amplify alpha brain waves </b>- and keep your mind energized yet calm, rather than
+                                have it jump around from thought to thought. </li>
+                            <li><b>Get a sustainable, long-lasting surge in natural energy that keeps you engaged,
+                                    centered, and feeling sharp </b>- without the negative effects of regular coffee.
+                            </li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient6.png" alt="ingredient6">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Schisandra extract</h1>
+                        <p>Schisandra is known for calming large spikes in emotion. That stomach drop and tsunami of
+                            stress that overtakes your system when something goes wrong? Yeah, it prevents that. <br>
+                            <br>
+                            In fact, a recent double-blind, placebo-controlled study showed even in the face of
+                            laboratory-grade stress, schisandra extract [10]: <b>Boosted participant’s attention,
+                                concentration, and
+                                mental energy. </b>
+                        </p>
+                    </div>
+                    <img class="col-6" src="images/ingredient7.png" alt="ingredient7">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Cordyceps</h1>
+                        <p>Cordyceps have been used in traditional Chinese medicine for thousands of years to treat
+                            fatigue. All this time, we had zero idea of how they worked – just that they did. <br>
+                            <br>
+                            Today, a recent study from The Journal of Physical Fitness and Sports Medicine uncovered it
+                            can [11]:
+                        </p>
+                        <ul>
+                            <li><b>Directly enhance your energy levels unlike anything
+                                    before it! </b></li>
+                            <li><b>Increase oxygen flow throughout the body.</b></li>
+                            <li><b>Reduce fatigue.</b></li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient8.png" alt="ingredient8">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Beet juice extract</h1>
+                        <p>Beets are packed to the brim with compounds and nutrients that are incredibly healthy for
+                            your body in a variety of ways.
+                        </p>
+                        <ul>
+                            <li><b>Reduce inflammation naturally</b></li>
+                            <li><b>Improving energy and athletic performance</b></li>
+                            <li><b>Support healthy blood pressure and oxygen retention</b></li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient9.png" alt="ingredient9">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Grape seed extract</h1>
+                        <p>Grape seeds contain a molecule called proanthocyanidins [13]. <br>
+                            <br>
+                            They’re important because as the recent research shows, they have the antioxidant power
+                            that’s 20X stronger than vitamin E and 50 times stronger than vitamin C [14].
+                            <br>
+                            <br>
+                            All to help protect your mitochondria from the daily stress of life, and ensure they can
+                            produce: <b>All the clean, natural energy you need.</b>
+                        </p>
+                    </div>
+                    <img class="col-6" src="images/ingredient10.png" alt="ingredient10">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">Amla</h1>
+                        <p>Amla grows in the fertile jungles of Indonesia, and has been relied on by traditional healers
+                            for centuries to treat low energy. But as with most Eastern Medicine, our modern world is
+                            just now catching up.<br>
+                            <br>Also known as Indian Gooseberry, studies have found that Amla helps boost heart health,
+                            repair liver damage, and boost your immune system.
+                        </p>
+                        <ul>
+                            <li><b>Amla is the second richest natural source of vitamin C</b></li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient11.png" alt="ingredient11">
+                </div>
+                <div class="ingredient col">
+                    <div class="col">
+                        <h1 id="greenText">S7™</h1>
+                        <p>A combination of unique compounds only found inside green coffee bean extract, green tea
+                            extract, turmeric, blueberry, broccoli, kale, and tart cherry. These 7 botanicals ramp up
+                            your body’s own nitric oxide production by 230% in as little as an hour.[4]
+                        </p>
+                        <ul>
+                            <li><b>Recover</b> faster with increased Nitric Oxide production</li>
+                            <li><b>to reduce stress and anxiety.</b></li>
+                            <li><b>Acclimate </b>to elevation quicker with faster oxygen delivery</li>
+                        </ul>
+
+                    </div>
+                    <img class="col-6" src="images/ingredient12.png" alt="ingredient12">
+                </div>
+            </div>
+        </div>
+        <div class="div02 col">
+            <h1 class="col">Rediscover What Natural Energy <b>Really Feels Like</b></h1>
+            <div>
+                <span class="circle">
+                    <h1 class="arrow" id="greenText">&#8595;</h1>
+                </span>
+            </div>
+        </div>
+        <div class="div01">
+            <div class="plans col" id="plans2">
+                <div class="card col-6">
+                    <h1 id="left">ONE TIME PURCHASE</h1>
+                    <h2>3 Pouches</h2>
+                    <div class="plan">
+                        <img class="badge" src="images/ProductBadge.png" alt="badge" style="width: 3rem;">
+                        <img src="images/Product1.png" alt="Product1" style="width:80%; height: auto;">
+                    </div>
+                    <h2 style="font-weight: 400;">save 37.50%</h2>
+                    <h1 id="greenText">$149.95</h1>
+                    <button class="btn btn-warning"><b>BUY NOW</b><br>5% Ground shipping</button>
+                    <p>Regular Price: <span style="text-decoration: line-through;">$239.85</span></p>
+                    <div>
+                        <img src="images/norton-antivirus-logo.png" alt="norton-antivirus-logo">
+                        <img src="images/secure-payments.png" alt="secure-payments">
+                    </div>
+                    <img src="images/security-icons.png" alt="security-icons">
+                </div>
+                <div class="card col-6">
+                    <h1 id="right">SUBSCRIBE & SAVE</h1>
+                    <h2>Buy 4 <span id="redText">Get 1 FREE</span></h2>
+                    <div class="plan">
+                        <img class="badge" src="images/ProductBadge.png" alt="badge" style="width: 3rem;">
+                        <img src="images/Product2.png" alt="Product2" style="width:80%; height: auto;">
+                    </div>
+                    <h2 style="font-weight: 400;">save 50%</h2>
+                    <h1 id="greenText">$199.95</h1>
+                    <button class="btn btn-warning"><b>BUY NOW</b><br>5% Ground shipping</button>
+                    <p>Regular Price: <span style="text-decoration: line-through;">$399.75</span></p>
+                    <div>
+                        <img src="images/norton-antivirus-logo.png" alt="norton-antivirus-logo">
+                        <img src="images/secure-payments.png" alt="secure-payments">
+                    </div>
+                    <img src="images/security-icons.png" alt="security-icons">
+                </div>
+            </div>
+            <div class="money-back col">
+                <img src="images/ProductBadge.png" alt="badge">
+                <span>90-Day Money Back Guarantee | All transactions secured and encrypted
+                    Cancel your subscription at any time</span>
+            </div>
+            <div class="reviews col">
+                <div class="review col-6 text-secondary">
+                    <p>"You won't regret it. I was amazed at the quality of it.
+                        I am really satisfied with my it.”</p>
+                    <span class="initials col-6">
+                        <h1 id="greenText">T.M</h1>
+                    </span>
+                    <span class="rating col-6">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </div>
+                <div class="review col-6 text-secondary">
+                    <p>"Your product was recommended by my dietitian so I immediately ordered a couple of months supply.
+                        By way of background, I have real resistance to taking medications and she felt your product
+                        might be different. How right she was!"</p>
+                    <span class="initials col-6">
+                        <h1 id="greenText">V.R</h1>
+                    </span>
+                    <span class="rating col-6">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </div>
+            </div>
+            <div class="ad">
+                Try a <b>30-Day supply</b> or save big on our <b>Subscribe and Save option!</b>
+                <br>
+                <br>
+                <span id="greenText">Green&Lean</span> is one of the healthiest and cleanest energy supplements on the
+                market.
+                <br>
+                <br>
+                When you begin using Green&Lean you will experience a mind that’s focused, alert, and uplifted that will
+                leave you never wanting to be without this energy phenomenon.
+                <br>
+                <br>
+                <b>Feel the results in minutes after your first dose or your money back, guaranteed.</b>
+                <br>
+                <br>
+                At WholeHarvest, we provide you with the options you want to experience phenomenal results in one
+                convenient bundle that saves you time and money. Because why waste time living unmotivated?
+            </div>
+        </div>
+        <div class="div05 col-6">
+            <div class="col">
+                <h1>RISK FREE 90 DAY MONEY BACK GUARANTEE </h1>
+            </div>
+            <div class="productCard col">
+                <div class="col-6">
+                    <h1 id="greenText">KSM-66® Ashwagandha</h1>
+                    <p>Go ahead and take <b>Green&Lean</b> for a well-deserved “test drive” over the next 10, 20, even
+                        30 days – as long as you’d like over the next six months.
+                        <br><br>
+                        If you don’t feel a dramatic improvement in your energy, focus, and mood... if you don’t tackle
+                        your day with a newfound sense of confidence, concentration, and an unshakable optimism... and
+                        if you feel even a single jitter from our energizing formula...
+                        <br><br>
+                        You don’t pay a dime.
+                        <br><br>
+                        Simply shoot us a quick email at <b>customerservice@greenandlean.com</b> and I’ll personally see
+                        you get a full refund, down to the last penny.
+                        <br><br>
+                        No questions. No hoops. No weird qualifications or fine print.
+                    </p>
+                </div>
+                <div class="plan">
+                    <img class="badge" src="images/badge2.png" alt="badge2" style="width: 10rem; left: 120px;">
+                    <img class="col-6" src="images/Product3.png" alt="Product3" style="width: 80%; height: auto;">
+                </div>
+            </div>
+            <div class="watermark_div">
+                <img class="watermark" src="images/Symbol.png" alt="Symbol" style="width: 30rem;">
+            </div>
+            <div class="productCard col">
+                <p>You risk nothing other than living a life where you’re just surviving...
+                    <br><br>
+                    When you should be thriving.
+                    <br><br>
+                    So click the button below now to give yourself a well-deserved shot at booming, natural energy
+                    levels with <b>Green&Lean.</b>
+                </p>
+            </div>
+        </div>
+        <div class="div06 col">
+            <div class="col-6">
+                <h1 id="greenText">Why Green&Lean</h1>
+                <h2>A powerful combination of synergistic ingredients formulated <br>
+                    to fuel your most vibrant energy.
+                </h2>
+                <div class="tickdiv col">
+                    <div class="col-4" style="display: flex; flex-direction: column; align-items: flex-end;">
+                        <p>Clinically Proven <span id="greenText">&check;</span></p>
+                        <p>Comprehensive
+                            Formulation<span id="greenText">&check;</span></p>
+                        <p>Third Party Tested<span id="greenText">&check;</span></p>
+                        <p>Extensively Researched Ingredients<span id="greenText">&check;</span></p>
+                        <p>Not Bioengineered<span id="greenText">&check;</span></p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/Product3.png" alt="Product3" style="width: 12rem; height: auto;">
+                    </div>
+                    <div class="col-4" style="display: flex; flex-direction: column; align-items: flex-start;">
+                        <p><span id="greenText">&check;</span> Physician Formulated </p>
+                        <p><span id="greenText">&check;</span> Safe & Effective</p>
+                        <p><span id="greenText">&check;</span> Allergen-Free</p>
+                        <p><span id="greenText">&check;</span> Professional Grade</p>
+                        <p><span id="greenText">&check;</span> Conveniently combines over $300 in ingredients.</p>
+                        <p><span id="greenText">&check;</span> Extremely convenient</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="div07 col"><!-- didn't know how to export the background picture -->
+            <h1>SAFE AND EFFECTIVE</h1>
+            <div class="grid-container col-6">
+                <div class="grid-item">
+                    <img src="images/safe1.png" alt="safe1" style="height: auto; width: 4rem;">
+                    <h2 id="greenText">Proven Benefits</h2>
+                    <p>We’ve done the research, so you don’t have to. Each of the active ingredients in Green&Lean has
+                        clinically proven health benefits to support thriving and lasting energy.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/safe2.png" alt="safe2" style="height: auto; width: 4rem;">
+                    <h2 id="greenText">Professional Quality</h2>
+                    <p>Investing in your health should be worry free - which is why Green&Lean is lab tested, and GMP
+                        Quality Assured. So you know exactly what you’re getting in each packet - a safe and effective
+                        way to feel your best. </p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/safe3.png" alt="safe3" style="height: auto; width: 4rem;">
+                    <h2 id="greenText">Clean Ingredients</h2>
+                    <p>Green&Lean contains ingredients of the highest quality and purity. Manufactured to be free of
+                        gluten, dairy, soy, tree nuts, and peanuts. Not Genetically Engineered.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/safe4.png" alt="safe4" style="height: auto; width: 4rem;">
+                    <h2 id="greenText">Effective Formula</h2>
+                    <p>This comprehensive formula was carefully curated by a team of clinical experts to naturally
+                        increase levels of peak energy and performance.
+                    </p>
+                </div>
+            </div>
+            <div class="buy-now col-6">
+                <button class="btn btn-warning" id="btn2"><h1><b>BUY NOW</b></h1></button>
+                <div class="money-back col">
+                    <img src="images/ProductBadge.png" alt="badge">
+                    <span>90-Day Money Back Guarantee | All transactions secured and encrypted</span>
+                </div>
+            </div>
+        </div>
+        <div class="div02 col">
+            <h1 class="col">EXPERIENCE THE TRANSFORMATION FOR YOURSELF</h1>
+            <div>
+                <span class="circle">
+                    <h1 class="arrow" id="greenText">&#8595;</h1>
+                </span>
+            </div>
+        </div>
+        <div class="div01">
+            <div class="plans col" id="plans3">
+                <div class="card col-6">
+                    <h1 id="left">ONE TIME PURCHASE</h1>
+                    <h2>3 Pouches</h2>
+                    <div class="plan">
+                        <img class="badge" src="images/ProductBadge.png" alt="badge" style="width: 3rem;">
+                        <img src="images/Product1.png" alt="Product1" style="width:80%; height: auto;">
+                    </div>
+                    <h2 style="font-weight: 400;">save 37.50%</h2>
+                    <h1 id="greenText">$149.95</h1>
+                    <button class="btn btn-warning"><b>BUY NOW</b><br>5% Ground shipping</button>
+                    <p>Regular Price: <span style="text-decoration: line-through;">$239.85</span></p>
+                    <div>
+                        <img src="images/norton-antivirus-logo.png" alt="norton-antivirus-logo">
+                        <img src="images/secure-payments.png" alt="secure-payments">
+                    </div>
+                    <img src="images/security-icons.png" alt="security-icons">
+                </div>
+                <div class="card col-6">
+                    <h1 id="right">SUBSCRIBE & SAVE</h1>
+                    <h2>Buy 4 <span id="redText">Get 1 FREE</span></h2>
+                    <div class="plan">
+                        <img class="badge" src="images/ProductBadge.png" alt="badge" style="width: 3rem;">
+                        <img src="images/Product2.png" alt="Product2" style="width:80%; height: auto;">
+                    </div>
+                    <h2 style="font-weight: 400;">save 50%</h2>
+                    <h1 id="greenText">$199.95</h1>
+                    <button class="btn btn-warning"><b>BUY NOW</b><br>5% Ground shipping</button>
+                    <p>Regular Price: <span style="text-decoration: line-through;">$399.75</span></p>
+                    <div>
+                        <img src="images/norton-antivirus-logo.png" alt="norton-antivirus-logo">
+                        <img src="images/secure-payments.png" alt="secure-payments">
+                    </div>
+                    <img src="images/security-icons.png" alt="security-icons">
+                </div>
+            </div>
+            <div class="money-back col">
+                <img src="images/ProductBadge.png" alt="badge">
+                <span>90-Day Money Back Guarantee | All transactions secured and encrypted
+                    Cancel your subscription at any time</span>
+            </div>
+        </div>
+        <div class="div08 col">
+            <h1>Frequently Asked Questions</h1>
+            <div class="col-6">
+                <div id="accordion">
+                    <h3>What are the ingredients in GREEN&LEAN?</h3>
+                    <div>
+                        <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                            est,
+                            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.
+                            <br><br>
+
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                    <h3>What are the ingredients in GREEN&LEAN?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, in iure voluptatem
+                            vitae
+                            porro pariatur autem. Necessitatibus porro fugiat deserunt ratione voluptates corporis
+                            veniam,
+                            laudantium temporibus dolore molestias. Voluptates, incidunt?Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Ratione nobis velit, tempora amet nam nostrum veritatis ullam
+                            veniam neque? Ipsum sed commodi aliquid accusamus, similique asperiores totam modi dolorum
+                            provident!
+                        </p>
+                    </div>
+                    <h3>How many servings per pouch?</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptas iste velit
+                            repudiandae itaque excepturi, natus, nisi, dolore ducimus fuga blanditiis autem assumenda
+                            facilis illo aliquam eveniet recusandae error quasi.
+                        </p>
+                    </div>
+                    <h3>Is there any dairy, gluten, or soy?</h3>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio nam dicta recusandae sed
+                        assumenda eligendi incidunt sunt dignissimos dolore architecto beatae distinctio repudiandae
+                        blanditiis vitae, corrupti numquam. Unde, cum.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione, deserunt ex
+                        iste
+                        beatae, corrupti minus, temporibus autem ab ut ducimus voluptas repellat! Aperiam laudantium rem
+                        fugiat voluptate enim labore?
+                    </div>
+                    <h3>Will GREEN&LEAN upset my stomach?</h3>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt quas itaque vitae, doloribus
+                        repellendus omnis non ipsam soluta, eum numquam autem beatae similique assumenda minus est
+                        placeat
+                        eius quo veniam!
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione, deserunt ex
+                        iste
+                        beatae, corrupti minus, temporibus autem ab ut ducimus voluptas repellat! Aperiam laudantium rem
+                        fugiat voluptate enim labore?
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, repellendus quae velit tempora qui
+                        ad,
+                        ab laboriosam quia consectetur, dolorem recusandae? Eos, aliquam blanditiis. Adipisci sequi aut
+                        fuga
+                        rem repellat.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer col-6">
+            <div class="row">
+                <h3 class="col-4">TERMS & CONDITIONS</h3>
+                <h3 class="col-4">SHIPPING POLICY</h3>
+                <h3 class="col-4">PRIVACY POLICYS</h3>
+                <h3 class="col-4">RETURNS</h3>
+            </div>
+            <div class="row">
+                <h3 class="col-6">For Product Support, please contact the seller HERE.</h3>
+                <h3 class="col-6">For Order Support, please contact the support team HERE.</h3>
+            </div>
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet recusandae cumque voluptate
+                excepturi,
+                nemo vel eum odit facere nostrum obcaecati aut minima cupiditate? Aperiam perspiciatis labore eum
+                tempore veritatis corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt eos optio
+                quisquam nam perferendis ratione possimus sequi quo nulla, facere ipsam commodi quae, quasi quibusdam
+                sapiente. Tempore, voluptatem eos?
+            </div>
+            <br>
+            <button class="col">Cras et ullamcorper velit. In hac habitasse platea dictumst. Nunc vitae dui quis risus
+                elementum auctor.</button>
+        </div>
+    </div>
+</body>
+
+</html>
